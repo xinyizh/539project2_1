@@ -1,0 +1,99 @@
+a{
+	text-decoration: none;
+}
+
+body{
+	background: whitesmoke;
+}
+
+li{
+	display: inline-block;
+	background: transparent;
+	width: 20%;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+	font-family: 'Montserrat', sans-serif;	
+}
+
+i{
+	color: pink;
+}
+
+img{
+	width: 50%;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.background{
+	background-image:url("../images/background.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: 400px 1000px;
+	grid-template-rows: 100px 100px 100px 100px 100px 100px 100px 100px;
+}
+
+.container .item1{
+	grid-area: 2 / 1 / 3 / 2;
+}
+
+.container .item2{
+	grid-area: 1 / 2 / 5 / 3;
+}
+
+.container .item3{
+	grid-area: 5 / 1 / 6 / 2;
+}
+
+.container .item4{
+	grid-area: 5 / 2 / 6 / 3;
+	width: 20%;
+}
+
+.container .item5{
+	grid-area: 6 / 1 / 7 / 2;
+}
+
+.container .item6{
+	grid-area: 6 / 2 / 7 / 3;
+	width: 20%;
+}
+
+.container .item7{
+	grid-area: 7 / 1 / 8 / 2;
+}
+
+.container .item8{
+	grid-area: 7 / 2 / 8 / 3;
+	width: 15%;
+}
+
+.container .item9{
+	grid-area: 8 / 1 / 9 / 2;
+}
+
+.container .item10{
+	grid-area: 8 / 2 / 9 / 3;
+}
+
+.background li a{
+	color: black;
+}
+
+.NQ{
+	margin-left: 10%;
+}
+
+.travel img{
+	margin-left: 10%;
+}
